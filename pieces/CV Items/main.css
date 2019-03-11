@@ -1,0 +1,48 @@
+body{
+  font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+}
+
+img {
+  width: 100%;
+  background-color: lightgrey;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.row {
+  margin: 20px;
+}
+
+.row .row-sm-4 .text {
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+}
+.name {
+  color: steelblue;
+  font-size: 120%;
+}
+
+.title {
+  color: olivedrab;
+}
+
+.desc {
+    font-size: 95%;
+}
